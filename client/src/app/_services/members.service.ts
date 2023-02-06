@@ -25,7 +25,7 @@ export class MembersService {
         return members;
       }) 
      )
-  }
+  } 
 
   getMember(username:string){
     const member  = this.members.find(x => x.userName === username);
